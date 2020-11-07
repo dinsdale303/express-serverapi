@@ -1,7 +1,21 @@
 {
+  "name": "express-serverapi",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon server",
+    "build": "cd client && yarn install && yarn build"
+  },
   "dependencies": {
+<<<<<<< HEAD
     "cors": "^2.8.5",
     "express": "4.17.1",
     "uuid": "^8.3.1"
+=======
+    "express": "^4.17.1",
+    "nodemon": "^2.0.4",
+    
+>>>>>>> 94eff836f11d068abe29e4fe0eb88d0908849dd3
   }
 }
