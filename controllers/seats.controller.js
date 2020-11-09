@@ -55,6 +55,8 @@ exports.delete = async (req, res) => {
   } catch(err) {
     res.status(500).json(err);
   }
+
+  req.io.emit('seatsUpdated', db.seats);
 };
 
 exports.put = async (req, res) => {
